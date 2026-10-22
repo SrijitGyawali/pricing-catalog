@@ -1,0 +1,728 @@
+{
+  "formatVersion" : "v1.0",
+  "disclaimer" : "This pricing list is for informational purposes only. All prices are subject to the additional terms included in the pricing pages on http://aws.amazon.com. All Free Tier prices are also subject to the terms included at https://aws.amazon.com/free/",
+  "offerCode" : "AmazonEC2",
+  "version" : "20261015191316",
+  "publicationDate" : "2026-10-15T19:13:16Z",
+  "products" : {
+    "GSZZ5DDM4RZGAWK3" : {
+      "sku" : "GSZZ5DDM4RZGAWK3",
+      "productFamily" : "Compute Instance",
+      "attributes" : {
+        "servicecode" : "AmazonEC2",
+        "location" : "Mexico (Central)",
+        "locationType" : "AWS Region",
+        "instanceType" : "m7i.large",
+        "currentGeneration" : "Yes",
+        "instanceFamily" : "General purpose",
+        "vcpu" : "2",
+        "physicalProcessor" : "Intel Xeon Scalable (Sapphire Rapids)",
+        "clockSpeed" : "3.2 GHz",
+        "memory" : "8 GiB",
+        "storage" : "EBS only",
+        "networkPerformance" : "Up to 12500 Megabit",
+        "processorArchitecture" : "64-bit",
+        "tenancy" : "Shared",
+        "operatingSystem" : "Linux",
+        "licenseModel" : "No License required",
+        "usagetype" : "MXC1-BoxUsage:m7i.large",
+        "operation" : "RunInstances",
+        "availabilityzone" : "NA",
+        "capacitystatus" : "Used",
+        "classicnetworkingsupport" : "false",
+        "dedicatedEbsThroughput" : "Up to 10000 Mbps",
+        "dedicatedEbsThroughputDescription" : "650 Mbps",
+        "ecu" : "NA",
+        "enhancedNetworkingSupported" : "Yes",
+        "gpuMemory" : "NA",
+        "instanceFamilyCategory" : "General Purpose",
+        "intelAvxAvailable" : "Yes",
+        "intelAvx2Available" : "Yes",
+        "intelTurboAvailable" : "Yes",
+        "marketoption" : "OnDemand",
+        "normalizationSizeFactor" : "4",
+        "preInstalledSw" : "NA",
+        "processorFeatures" : "Intel AVX; Intel AVX2; Intel AVX512; Intel Turbo; Intel AMX",
+        "regionCode" : "mx-central-1",
+        "servicename" : "Amazon Elastic Compute Cloud",
+        "vpcnetworkingsupport" : "true"
+      }
+    },
+    "B6A54XHS2QMJD4TF" : {
+      "sku" : "B6A54XHS2QMJD4TF",
+      "productFamily" : "Storage",
+      "attributes" : {
+        "servicecode" : "AmazonEC2",
+        "location" : "Mexico (Central)",
+        "locationType" : "AWS Region",
+        "storageMedia" : "SSD-backed",
+        "volumeType" : "Provisioned IOPS",
+        "maxVolumeSize" : "64 TiB",
+        "maxIopsvolume" : "256000",
+        "maxThroughputvolume" : "4000 MiB/s",
+        "usagetype" : "MXC1-EBS:VolumeUsage.io2",
+        "operation" : "",
+        "regionCode" : "mx-central-1",
+        "servicename" : "Amazon Elastic Compute Cloud",
+        "volumeApiName" : "io2"
+      }
+    },
+    "7SQF2UCUVTGR2JHQ" : {
+      "sku" : "7SQF2UCUVTGR2JHQ",
+      "productFamily" : "CPU Credits",
+      "attributes" : {
+        "servicecode" : "AmazonEC2",
+        "location" : "Mexico (Central)",
+        "locationType" : "AWS Region",
+        "operatingSystem" : "Windows",
+        "usagetype" : "MXC1-CPUCredits:t3",
+        "operation" : "WindowsT3CPUCredits",
+        "instance" : "T3",
+        "instanceFamilyCategory" : "General Purpose",
+        "marketoption" : "OnDemand",
+        "regionCode" : "mx-central-1",
+        "servicename" : "Amazon Elastic Compute Cloud"
+      }
+    },
+    "YVJAC3MC2J6BWV58" : {
+      "sku" : "YVJAC3MC2J6BWV58",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonEC2",
+        "location" : "Mexico (Central)",
+        "locationType" : "AWS Region",
+        "group" : "EC2-Dedicated Usage",
+        "groupDescription" : "Fee for running at least one Dedicated Instance or a Dedicated Instance Capacity Reservation in the region",
+        "usagetype" : "MXC1-DedicatedUsage",
+        "operation" : "Surcharge",
+        "regionCode" : "mx-central-1",
+        "servicename" : "Amazon Elastic Compute Cloud"
+      }
+    },
+    "77ZFY386MRDWG95P" : {
+      "sku" : "77ZFY386MRDWG95P",
+      "productFamily" : "System Operation",
+      "attributes" : {
+        "servicecode" : "AmazonEC2",
+        "location" : "Mexico (Central)",
+        "locationType" : "AWS Region",
+        "provisioned" : "Yes",
+        "group" : "EBS IOPS Tier 2",
+        "groupDescription" : "IOPS",
+        "usagetype" : "MXC1-EBS:VolumeP-IOPS.io2.tier2",
+        "operation" : "",
+        "regionCode" : "mx-central-1",
+        "servicename" : "Amazon Elastic Compute Cloud",
+        "volumeApiName" : "io2"
+      }
+    },
+    "6WRB747KJCDYFREX" : {
+      "sku" : "6WRB747KJCDYFREX",
+      "productFamily" : "NAT Gateway",
+      "attributes" : {
+        "servicecode" : "AmazonEC2",
+        "location" : "Mexico (Central)",
+        "locationType" : "AWS Region",
+        "group" : "NGW:NatGateway",
+        "groupDescription" : "Hourly charge for NAT Gateways",
+        "usagetype" : "MXC1-NatGateway-Hours",
+        "operation" : "NatGateway",
+        "regionCode" : "mx-central-1",
+        "servicename" : "Amazon Elastic Compute Cloud"
+      }
+    },
+    "23FMP7UNKSX7XPM5" : {
+      "sku" : "23FMP7UNKSX7XPM5",
+      "productFamily" : "Dedicated Host",
+      "attributes" : {
+        "servicecode" : "AmazonEC2",
+        "location" : "Mexico (Central)",
+        "locationType" : "AWS Region",
+        "instanceType" : "m8g",
+        "currentGeneration" : "Yes",
+        "instanceFamily" : "General purpose",
+        "vcpu" : "192",
+        "physicalProcessor" : "AWS Graviton4 Processor",
+        "clockSpeed" : "2.7 GHz",
+        "memory" : "NA",
+        "storage" : "NA",
+        "networkPerformance" : "NA",
+        "processorArchitecture" : "64-bit",
+        "tenancy" : "Reserved",
+        "operatingSystem" : "Linux",
+        "licenseModel" : "No License required",
+        "usagetype" : "MXC1-ReservedHostUsage:m8g",
+        "operation" : "RunInstances",
+        "availabilityzone" : "NA",
+        "capacitystatus" : "AllocatedHost",
+        "classicnetworkingsupport" : "false",
+        "ecu" : "NA",
+        "enhancedNetworkingSupported" : "Yes",
+        "gpuMemory" : "NA",
+        "instanceFamilyCategory" : "General Purpose",
+        "intelAvxAvailable" : "No",
+        "intelAvx2Available" : "No",
+        "intelTurboAvailable" : "No",
+        "marketoption" : "OnDemand",
+        "normalizationSizeFactor" : "NA",
+        "physicalCores" : "192",
+        "preInstalledSw" : "NA",
+        "regionCode" : "mx-central-1",
+        "servicename" : "Amazon Elastic Compute Cloud",
+        "vpcnetworkingsupport" : "true"
+      }
+    },
+    "ZSGV7SK63KWJQCNX" : {
+      "sku" : "ZSGV7SK63KWJQCNX",
+      "attributes" : {
+        "servicecode" : "AmazonEC2",
+        "location" : "Mexico (Central)",
+        "locationType" : "AWS Region",
+        "usagetype" : "MXC1-EBS:VolumeClone",
+        "operation" : "",
+        "productType" : "VolumeClone",
+        "regionCode" : "mx-central-1",
+        "servicename" : "Amazon Elastic Compute Cloud"
+      }
+    },
+    "R3WPVNCD34N9W7UV" : {
+      "sku" : "R3WPVNCD34N9W7UV",
+      "productFamily" : "Compute Instance",
+      "attributes" : {
+        "servicecode" : "AmazonEC2",
+        "location" : "Any",
+        "locationType" : "AWS Region",
+        "group" : "FreeTrial",
+        "groupDescription" : "Free Trial for running instances for a limited number of hours and instances, see marketing for details",
+        "usagetype" : "Global-BoxUsage:freetrial",
+        "operation" : "RunInstances",
+        "regionCode" : "",
+        "servicename" : "Amazon Elastic Compute Cloud"
+      }
+    }
+  },
+  "terms" : {
+    "OnDemand" : {
+      "GSZZ5DDM4RZGAWK3" : {
+        "GSZZ5DDM4RZGAWK3.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "GSZZ5DDM4RZGAWK3",
+          "effectiveDate" : "2026-10-01T00:00:00Z",
+          "priceDimensions" : {
+            "GSZZ5DDM4RZGAWK3.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "GSZZ5DDM4RZGAWK3.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.10584 per On Demand Linux m7i.large Instance Hour",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Hrs",
+              "pricePerUnit" : {
+                "USD" : "0.1058400000"
+              },
+              "appliesTo" : []
+            }
+          },
+          "termAttributes" : {}
+        }
+      },
+      "B6A54XHS2QMJD4TF" : {
+        "B6A54XHS2QMJD4TF.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "B6A54XHS2QMJD4TF",
+          "effectiveDate" : "2026-10-01T00:00:00Z",
+          "priceDimensions" : {
+            "B6A54XHS2QMJD4TF.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "B6A54XHS2QMJD4TF.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.1313 per GB-month of Provisioned IOPS SSD (io2)  provisioned storage - Mexico (Central)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB-month",
+              "pricePerUnit" : {
+                "USD" : "0.1313000000"
+              },
+              "appliesTo" : []
+            }
+          },
+          "termAttributes" : {}
+        }
+      },
+      "7SQF2UCUVTGR2JHQ" : {
+        "7SQF2UCUVTGR2JHQ.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "7SQF2UCUVTGR2JHQ",
+          "effectiveDate" : "2026-10-01T00:00:00Z",
+          "priceDimensions" : {
+            "7SQF2UCUVTGR2JHQ.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "7SQF2UCUVTGR2JHQ.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.096 per vCPU-Hour of T3 CPU Credits",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "vCPU-Hours",
+              "pricePerUnit" : {
+                "USD" : "0.0960000000"
+              },
+              "appliesTo" : []
+            }
+          },
+          "termAttributes" : {}
+        }
+      },
+      "YVJAC3MC2J6BWV58" : {
+        "YVJAC3MC2J6BWV58.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "YVJAC3MC2J6BWV58",
+          "effectiveDate" : "2026-10-01T00:00:00Z",
+          "priceDimensions" : {
+            "YVJAC3MC2J6BWV58.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "YVJAC3MC2J6BWV58.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$2.00 once per hour when using dedicated tenancy (instance or Capacity Reservation) in the Mexico Central Region",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Hrs",
+              "pricePerUnit" : {
+                "USD" : "2.0000000000"
+              },
+              "appliesTo" : []
+            }
+          },
+          "termAttributes" : {}
+        }
+      },
+      "77ZFY386MRDWG95P" : {
+        "77ZFY386MRDWG95P.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "77ZFY386MRDWG95P",
+          "effectiveDate" : "2026-10-01T00:00:00Z",
+          "priceDimensions" : {
+            "77ZFY386MRDWG95P.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "77ZFY386MRDWG95P.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0478 per IOPS-month provisioned (io2) for 32001-64000 IOPS for volume that has provisioned greater than 32000 IOPS",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "IOPS-Mo",
+              "pricePerUnit" : {
+                "USD" : "0.0478000000"
+              },
+              "appliesTo" : []
+            }
+          },
+          "termAttributes" : {}
+        }
+      },
+      "6WRB747KJCDYFREX" : {
+        "6WRB747KJCDYFREX.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "6WRB747KJCDYFREX",
+          "effectiveDate" : "2026-10-01T00:00:00Z",
+          "priceDimensions" : {
+            "6WRB747KJCDYFREX.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "6WRB747KJCDYFREX.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "USD0.04725 per Hrs for NatGateway-Hours:NatGateway in Mexico (Central)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Hrs",
+              "pricePerUnit" : {
+                "USD" : "0.0472500000"
+              },
+              "appliesTo" : []
+            }
+          },
+          "termAttributes" : {}
+        }
+      },
+      "ZSGV7SK63KWJQCNX" : {
+        "ZSGV7SK63KWJQCNX.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "ZSGV7SK63KWJQCNX",
+          "effectiveDate" : "2026-10-01T00:00:00Z",
+          "priceDimensions" : {
+            "ZSGV7SK63KWJQCNX.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "ZSGV7SK63KWJQCNX.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.00084 per GB of data cloned from the source volume in Mexico (Central)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0008400000"
+              },
+              "appliesTo" : []
+            }
+          },
+          "termAttributes" : {}
+        }
+      },
+      "R3WPVNCD34N9W7UV" : {
+        "R3WPVNCD34N9W7UV.A429C66SYZ" : {
+          "offerTermCode" : "A429C66SYZ",
+          "sku" : "R3WPVNCD34N9W7UV",
+          "effectiveDate" : "2026-10-01T00:00:00Z",
+          "priceDimensions" : {
+            "R3WPVNCD34N9W7UV.A429C66SYZ.TKQXKGP374" : {
+              "rateCode" : "R3WPVNCD34N9W7UV.A429C66SYZ.TKQXKGP374",
+              "description" : "Global",
+              "beginRange" : "0",
+              "endRange" : "750",
+              "unit" : "Hrs",
+              "pricePerUnit" : {
+                "USD" : "0.0000000000"
+              },
+              "appliesTo" : [
+                "DBYKKKJW4DNWYZYV",
+                "UZN5PC673JE8UQAY",
+                "V9ES3NHTPE38KTTM",
+                "7UWG6NFD2Q2CCF66",
+                "DF3Y67YMPD9W4AFA",
+                "3EP9U6T67W776A2U",
+                "X8TPC7DRNBGBDTD5",
+                "RDAZEH7YEHSHKUD6",
+                "PPJSGTBSZ3M9G2FX",
+                "HWE4GVVD4XAA5MSM",
+                "74TFX697KNZ72UYS",
+                "VP27QTDUG3CMNEE5",
+                "W3AKEE2UNER2XVES",
+                "UMK5V76RXY4XK9TC",
+                "NWKYPJ3YZ3GD7XM5",
+                "AW8AKUMZKQEQXMSZ",
+                "W9THJ2D5XUV5A94B",
+                "T5VTWB5QZT27MBZM",
+                "4X9G6PSGEMMQABBA",
+                "FY5UR93C9YDGQB44",
+                "7XMF22UUB93ZJWBC",
+                "8N6354P9QMEF7B6P",
+                "URT2Z2UDMH6K6RV9",
+                "T8ZUNBWNHPNKB3UR",
+                "UWBEBPUFFV98TS9H",
+                "MZGPYWV687EP4MDV",
+                "439RFSHM9QE8FCKH",
+                "JT35QQ22RYW6BPH2",
+                "UJ5B5PTS4YCEN5XQ",
+                "JJTHVE46DG4C44QU",
+                "EG26BW4WNM66NNWJ",
+                "STAAM4PYPPV66BJW",
+                "EMEMYDS7QQEW8P8C",
+                "KRDSWRBFH2J78M7D",
+                "YXT9DDZEEM54DM2V",
+                "QC5GYPK39D34P95P",
+                "WU7XTWSVJYUDM6F5",
+                "DTXWM5V9G5PY96GJ",
+                "AV6NEG9K8KQJW3UY",
+                "URTSFJQ3WUEG9FKX",
+                "QRRYV68EAVPN8NW8",
+                "FF2ERQV9SEHTV67D",
+                "5A5N85QM5DPGS7TP",
+                "8VCCAUF9CS4ABHNP",
+                "8RXUUFRB6UFXAZDN",
+                "NCEAAS5TNBGVUJ8A",
+                "SFA2QGU9SZF5R9UZ",
+                "8737UU57M2Z32WTB",
+                "FSQDFZRKMZENV4E3",
+                "QEVDH7QZ6RBJ92DP",
+                "2BH2BSYGAMS6R9B6",
+                "H5ESZHQF82SSEKVQ",
+                "DY352HXFHSH2RGZR",
+                "DYYA7GU8K4R78XWU",
+                "3JPDVFFT6R7SW2PF",
+                "KGA2J6AT8V7GC64C",
+                "NZEUF49W57PGVFS6",
+                "SX337VBYBU8Q9XFW",
+                "73T97BE3T4S4DRNQ",
+                "YUHU2BJZFXTP6QZB",
+                "DKGAEQE4UWT4FX5N",
+                "VD7E65KAUCKRD5SQ",
+                "CH9K3BSKEQHD3T6Q",
+                "NEJV9WSDCZV9HBPF",
+                "RZ9JQ7CAC28ESM2W",
+                "9GWX7R3VJUG9P8Y8",
+                "KJ27N64UWW3XVKZU",
+                "Y2QU9XB9ZZXS49VK",
+                "SX6CR62YX8MFV28J",
+                "4AG434AZP7VKSWQJ",
+                "JKPG8YAXFCXAHHRY",
+                "PNC6BYDCU4XPA59S",
+                "S8WVRUZKU3K8HB7F",
+                "BW246H76QU44M7NT",
+                "3GPNV2DGQVM7GCSE",
+                "MXYK6NDY6RJ3X8DP",
+                "NZ8VFCUDV72C6YXE",
+                "YTWJMDCAHC545GC9",
+                "8BQFP8RFZFJ5Z7PV",
+                "VXMAC6YG3V4XTE4K",
+                "MPVEJW2KM6RUN7YB",
+                "5X9GFS6MGWXD2HDN",
+                "BNV8HMV6JWGKUWNM",
+                "N2TD7AEUCAM58XN6",
+                "KF5NMDBAT5KEFX66",
+                "WPA36YFSG5C5F3FP",
+                "N4C4SJ9BKHMY4ZAP",
+                "5HCA3UTTUJNXTSMA",
+                "RU9HAXN7CEU7UDZH",
+                "CPT3F6JYW6467H35",
+                "CJFYYA86JX4BYK6B",
+                "2VE8QJYGZYA97HTR",
+                "ZUNAW6MWT9WP3SKE",
+                "DDDHNVR6Z5GKWVAN",
+                "6PFHQYKYB5P54UAH",
+                "BVPR77QTGQK4YT64",
+                "QFRFZ55VTRDDHUJ7",
+                "5S26F766N9R2RBXH",
+                "ZMTPUYRJYZHC3VNU",
+                "GH4MSPTMAVUBB54F",
+                "KGAK5KP2ZA2QADFR",
+                "3TK7G58X4TBK9FC6",
+                "US7FNJHF5HP65KJJ",
+                "6YTHGB69EBGBBE36",
+                "8DECM9VMCA6DG3QS",
+                "RGUCF5S3GNXWY8ZM",
+                "92ATHBJX3WVG89ED",
+                "E43C62CQKTZTM226",
+                "RWFWMUM36Q87DK9Y",
+                "4H9A3VT7J9EUCWR2",
+                "T2WR8U3PGF27NURH",
+                "8DU2N9W7GJJW2SSM",
+                "QHFSYDQF5ECSSXW2",
+                "QSPG47MGG65Q7VAP",
+                "A8NMJAWDY6TWYRKJ",
+                "VDTA589FZ6WZDGGY",
+                "NJB9XQVGDRDCWJES",
+                "8Z47T9HF9HRTYHQG",
+                "FA5WEF72YX7K9VTB",
+                "HME7AS7GXR6D4SFE",
+                "2EUSE2TWPQ8MGRAB",
+                "HHXC7H33CCA6NE9V",
+                "QGV2TDH8S8XUDBZS",
+                "VJP8YV2GB9QAKWRM",
+                "Z7RKKZ93UYWRHMR2",
+                "KAVERF7SY9M6HVT8",
+                "RG9BV68SHERXD4CG",
+                "CEUWNE94JVK96DP4",
+                "42DP2UNY4ASHPCXT",
+                "C7S72Q5AZ5GBK63Y",
+                "J3S8YXERW39SBAFR",
+                "Q2UK5BJWR749WHMQ",
+                "4RSE4747CXAQPWAF",
+                "PEU367QMBGZM3E4G",
+                "6U8RDQ34D8WNV9QC",
+                "M8D727XBUFCN2UT4",
+                "KEQ4TT4FH5GJJNKE",
+                "AMVKUFQ62BCYN86F",
+                "HBHD53EFB2TH5Y75",
+                "EV8CKVMEBCDNZ2QJ",
+                "DTMNV2VDHCZYXYUC",
+                "NPWNDS575NVCNR45",
+                "BWJ32GT2BUJS2EU3",
+                "AMHUY3T3XH6EV5VT",
+                "VFBE34F268RM74KS",
+                "DDMH422TCWDC97DM",
+                "TUW8QBQFHTFCZU8G",
+                "H28UXFKY3YU6BAP9",
+                "GU72BKBRUEXEMCC4",
+                "VM5GJSA24GYXQKQT",
+                "G9BHS6Z826CEVCEH",
+                "X5D4MCRYHAAS96V9",
+                "RX5QV3HCGYQXTEEJ",
+                "9R2FWZKEGC2AH9RK",
+                "Q3K2B43DGK46F4WX",
+                "YM2XN39USBQN9AZ5",
+                "F7MEBXG8K3CC9TUA",
+                "UKSCXQDZVRTAPHPX",
+                "PQD9GJ3WWBX6N7WN",
+                "WKYSXK36735QREZU",
+                "9QZEPSPF8754RCGP",
+                "RHT3EEFB3SMCKG6Q",
+                "5MC64VBKS57PQXKB",
+                "HDWKYG7M5GHVE2XV",
+                "XBH2AVV8HN8P54U2",
+                "NTSJZ6S2KD2YFRVB",
+                "Y33CHC2PYKBQ7U2C",
+                "GW3KYCFUMG7AZRN8",
+                "54Y6FQY599Z6GQ5J",
+                "WNXKXP7HYA824F76"
+              ]
+            }
+          },
+          "termAttributes" : {
+            "Restriction" : "Limited SKU Usage"
+          }
+        }
+      }
+    },
+    "Reserved" : {
+      "23FMP7UNKSX7XPM5" : {
+        "23FMP7UNKSX7XPM5.4NA7Y494T4" : {
+          "offerTermCode" : "4NA7Y494T4",
+          "sku" : "23FMP7UNKSX7XPM5",
+          "effectiveDate" : "2026-10-15T19:36:29Z",
+          "priceDimensions" : {
+            "23FMP7UNKSX7XPM5.4NA7Y494T4.6YS6EN2CT7" : {
+              "rateCode" : "23FMP7UNKSX7XPM5.4NA7Y494T4.6YS6EN2CT7",
+              "description" : "M8G Dedicated Host Reservation hours used this month",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Hrs",
+              "pricePerUnit" : {
+                "USD" : "6.5830000000"
+              },
+              "appliesTo" : []
+            }
+          },
+          "termAttributes" : {
+            "LeaseContractLength" : "1yr",
+            "PurchaseOption" : "No Upfront",
+            "OfferingClass" : "standard"
+          }
+        },
+        "23FMP7UNKSX7XPM5.BPH4J8HBKS" : {
+          "offerTermCode" : "BPH4J8HBKS",
+          "sku" : "23FMP7UNKSX7XPM5",
+          "effectiveDate" : "2026-10-15T19:36:33Z",
+          "priceDimensions" : {
+            "23FMP7UNKSX7XPM5.BPH4J8HBKS.6YS6EN2CT7" : {
+              "rateCode" : "23FMP7UNKSX7XPM5.BPH4J8HBKS.6YS6EN2CT7",
+              "description" : "M8G Dedicated Host Reservation hours used this month",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Hrs",
+              "pricePerUnit" : {
+                "USD" : "4.5140000000"
+              },
+              "appliesTo" : []
+            }
+          },
+          "termAttributes" : {
+            "LeaseContractLength" : "3yr",
+            "PurchaseOption" : "No Upfront",
+            "OfferingClass" : "standard"
+          }
+        },
+        "23FMP7UNKSX7XPM5.HU7G6KETJZ" : {
+          "offerTermCode" : "HU7G6KETJZ",
+          "sku" : "23FMP7UNKSX7XPM5",
+          "effectiveDate" : "2026-10-15T19:36:31Z",
+          "priceDimensions" : {
+            "23FMP7UNKSX7XPM5.HU7G6KETJZ.6YS6EN2CT7" : {
+              "rateCode" : "23FMP7UNKSX7XPM5.HU7G6KETJZ.6YS6EN2CT7",
+              "description" : "M8G Dedicated Host Reservation hours used this month",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Hrs",
+              "pricePerUnit" : {
+                "USD" : "3.1350000000"
+              },
+              "appliesTo" : []
+            },
+            "23FMP7UNKSX7XPM5.HU7G6KETJZ.2TG2D8R56U" : {
+              "rateCode" : "23FMP7UNKSX7XPM5.HU7G6KETJZ.2TG2D8R56U",
+              "description" : "Upfront Fee",
+              "unit" : "Quantity",
+              "pricePerUnit" : {
+                "USD" : "27461"
+              },
+              "appliesTo" : []
+            }
+          },
+          "termAttributes" : {
+            "LeaseContractLength" : "1yr",
+            "PurchaseOption" : "Partial Upfront",
+            "OfferingClass" : "standard"
+          }
+        },
+        "23FMP7UNKSX7XPM5.38NPMPTW36" : {
+          "offerTermCode" : "38NPMPTW36",
+          "sku" : "23FMP7UNKSX7XPM5",
+          "effectiveDate" : "2026-10-15T19:36:31Z",
+          "priceDimensions" : {
+            "23FMP7UNKSX7XPM5.38NPMPTW36.6YS6EN2CT7" : {
+              "rateCode" : "23FMP7UNKSX7XPM5.38NPMPTW36.6YS6EN2CT7",
+              "description" : "M8G Dedicated Host Reservation hours used this month",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Hrs",
+              "pricePerUnit" : {
+                "USD" : "2.0900000000"
+              },
+              "appliesTo" : []
+            },
+            "23FMP7UNKSX7XPM5.38NPMPTW36.2TG2D8R56U" : {
+              "rateCode" : "23FMP7UNKSX7XPM5.38NPMPTW36.2TG2D8R56U",
+              "description" : "Upfront Fee",
+              "unit" : "Quantity",
+              "pricePerUnit" : {
+                "USD" : "54922"
+              },
+              "appliesTo" : []
+            }
+          },
+          "termAttributes" : {
+            "LeaseContractLength" : "3yr",
+            "PurchaseOption" : "Partial Upfront",
+            "OfferingClass" : "standard"
+          }
+        },
+        "23FMP7UNKSX7XPM5.NQ3QZPMQV9" : {
+          "offerTermCode" : "NQ3QZPMQV9",
+          "sku" : "23FMP7UNKSX7XPM5",
+          "effectiveDate" : "2026-10-15T19:36:29Z",
+          "priceDimensions" : {
+            "23FMP7UNKSX7XPM5.NQ3QZPMQV9.6YS6EN2CT7" : {
+              "rateCode" : "23FMP7UNKSX7XPM5.NQ3QZPMQV9.6YS6EN2CT7",
+              "description" : "M8G Dedicated Host Reservation hours used this month",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Hrs",
+              "pricePerUnit" : {
+                "USD" : "0.0000000000"
+              },
+              "appliesTo" : []
+            },
+            "23FMP7UNKSX7XPM5.NQ3QZPMQV9.2TG2D8R56U" : {
+              "rateCode" : "23FMP7UNKSX7XPM5.NQ3QZPMQV9.2TG2D8R56U",
+              "description" : "Upfront Fee",
+              "unit" : "Quantity",
+              "pricePerUnit" : {
+                "USD" : "103253"
+              },
+              "appliesTo" : []
+            }
+          },
+          "termAttributes" : {
+            "LeaseContractLength" : "3yr",
+            "PurchaseOption" : "All Upfront",
+            "OfferingClass" : "standard"
+          }
+        },
+        "23FMP7UNKSX7XPM5.6QCMYABX3D" : {
+          "offerTermCode" : "6QCMYABX3D",
+          "sku" : "23FMP7UNKSX7XPM5",
+          "effectiveDate" : "2026-10-15T19:36:34Z",
+          "priceDimensions" : {
+            "23FMP7UNKSX7XPM5.6QCMYABX3D.6YS6EN2CT7" : {
+              "rateCode" : "23FMP7UNKSX7XPM5.6QCMYABX3D.6YS6EN2CT7",
+              "description" : "M8G Dedicated Host Reservation hours used this month",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Hrs",
+              "pricePerUnit" : {
+                "USD" : "0.0000000000"
+              },
+              "appliesTo" : []
+            },
+            "23FMP7UNKSX7XPM5.6QCMYABX3D.2TG2D8R56U" : {
+              "rateCode" : "23FMP7UNKSX7XPM5.6QCMYABX3D.2TG2D8R56U",
+              "description" : "Upfront Fee",
+              "unit" : "Quantity",
+              "pricePerUnit" : {
+                "USD" : "53823"
+              },
+              "appliesTo" : []
+            }
+          },
+          "termAttributes" : {
+            "LeaseContractLength" : "1yr",
+            "PurchaseOption" : "All Upfront",
+            "OfferingClass" : "standard"
+          }
+        }
+      }
+    }
+  },
+  "attributesList" : {}
+}
